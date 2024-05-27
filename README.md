@@ -2,8 +2,6 @@
 
 ## How to use
 
-Click on the [Use Template](https://github.com/surjithctly/nextly-template/generate) button on this page to clone this respository to your github account. Or you can also clone this respository using terminal or bash. 
-
 ### 1\. Clone this Repository
 
 ```bash
