@@ -22,7 +22,7 @@ yarn install
 npm install
 ```
 
-### 5\. Run Dev Server
+### 4\. Run Dev Server
 
 ```
 yarn dev
