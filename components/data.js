@@ -7,54 +7,55 @@ import {
   SunIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../public/img/benefit-one.png";
-import benefitTwoImg from "../public/img/benefit-two.png";
+import benefitOneImg from "../public/img/coffee-barista.svg";
+import benefitTwoImg from "../public/img/friends-coffee.svg";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Découvrez nos avantages",
+  desc: "Au Mumu Café, nous mettons tout en œuvre pour offrir une expérience unique à nos clients. Découvrez ci-dessous quelques-uns des principaux avantages que nous offrons.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Comprenez vos clients",
+      desc: "Nous utilisons des outils avancés pour analyser les préférences et les habitudes de nos clients, afin de personnaliser chaque visite et de mieux répondre à leurs attentes.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Améliorez l'acquisition",
+      desc: "Grâce à nos campagnes de marketing ciblées et à nos offres promotionnelles attractives, nous attirons continuellement de nouveaux clients qui deviennent des habitués fidèles.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Favorisez la fidélisation des clients",
+      desc: "Nous offrons un programme de fidélité généreux et des événements exclusifs pour encourager nos clients à revenir régulièrement et à rester engagés avec notre marque.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Découvrez encore plus d'avantages",
+  desc: "Utilisez cette mise en page avec une image inversée pour mettre en avant d'autres avantages de notre café. Comme dans la section précédente, vous pouvez inclure une image ou une illustration accompagnée de quelques points forts.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Template responsive sur mobile",
+      desc: "Le site web du Mumu Café est conçu pour être entièrement responsive et offrir une expérience utilisateur optimale sur tous les appareils.",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Propulsé par Next.js et TailwindCSS",
+      desc: "Notre site utilise les dernières technologies pour assurer une performance et une flexibilité maximales.",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Mode clair et sombre",
+      desc: "Le site du Mumu Café propose un mode clair et un mode sombre, configurables sans effort pour un confort visuel optimal.",
       icon: <SunIcon />,
     },
   ],
 };
+
 
 
 export {benefitOne, benefitTwo};
