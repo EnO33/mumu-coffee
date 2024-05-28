@@ -10,7 +10,7 @@ const Hero = () => {
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
               Mumu Café
             </h1>
-            <p className="py-5 text-lg text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
+            <p className="py-5 text-lg text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300 text-justify">
               Le Mumu Café est bien plus qu'un simple café. Situé au cœur de la
               ville, notre établissement offre une ambiance chaleureuse et
               conviviale où chaque visiteur peut se détendre et savourer des
